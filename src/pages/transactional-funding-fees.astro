@@ -15,7 +15,7 @@ const faqs = [
   { q: "When is the funding fee paid?", a: "The fee typically comes out of the resale proceeds at closing, along with the repayment of the funded amount. You do not pay it out of pocket before the deal closes. Morby Method structures are the exception: those fees are paid upfront by Zelle or wire, as the schedule lists." },
   { q: "Is there a minimum fee?", a: "Yes. On funding up to {{tier1Cap}} the fee is {{tier1Rate}} with a {{tier1Minimum}} minimum, so smaller deals pay the {{tier1Minimum}} minimum when {{tier1Rate}} would be less." },
   { q: "What happens if the closing is delayed?", a: "Transactional funding is priced for a same-day hold. If the resale side moves and the funds stay out longer, the additional day fee of {{extraDayRate}} per day applies for each extra day, as listed in the schedule." },
-  { q: "Do the fees change by city, county or jurisdiction?", a: "No. The same published schedule applies everywhere we fund across the Greater Houston metro and the surrounding North Texas counties. County recording fees and title insurance are separate closing costs, not part of our fee." },
+  { q: "Do the fees change by city, county or jurisdiction?", a: "No. The same published schedule applies everywhere we fund across the Greater Houston metro. County recording fees and title insurance are separate closing costs, not part of our fee." },
   { q: "Are there fees beyond the schedule?", a: "The schedule covers the funding itself, including the additional-day, second-closing-company and special-paperwork lines. Closing costs charged by the title company or closing office are separate from our fee and vary by file." }
 ];
 
@@ -92,7 +92,7 @@ const jsonld = [
 
     <section class="section section--tint" id="faq"><div class="container faq__inner"><h2 class="section__title">Common questions about fees</h2><FaqAccordion items={faqs.map((f) => ({ q: r(f.q), a: r(f.a) }))} /></div></section>
 
-    <section class="final-cta"><div class="final-cta__graphic" aria-hidden="true"></div><div class="container final-cta__inner"><h2 class="final-cta__title">Run your deal against the schedule</h2><p class="final-cta__text">Submit the deal and we will review the numbers. Funding can be ready in as little as 24 hours once we have the deal details and closing office information.</p><a class="btn btn--accent btn--lg" href="/#deal-form">Submit Your Deal <span aria-hidden="true">→</span></a></div></section>
+    <section class="final-cta"><div class="final-cta__graphic" aria-hidden="true"></div><div class="container final-cta__inner"><h2 class="final-cta__title">Run your deal against the schedule</h2><p class="final-cta__text">Submit the deal and we will review the numbers. Funding depends on review of your contracts and closing arrangements.</p><a class="btn btn--accent btn--lg" href="/#deal-form">Submit Your Deal <span aria-hidden="true">→</span></a></div></section>
   </main>
   <Footer />
 </Base>
