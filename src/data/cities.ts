@@ -87,7 +87,18 @@ export const cities: City[] = [
     "nearby": [
       "pasadena"
     ],
-    "blurb": "The Heights and Museum District give Houston distinct neighborhood landmarks."
+    "blurb": "The Heights and Museum District give Houston distinct neighborhood landmarks.",
+    "scenario": {
+      "title": "An illustrative Houston deal checklist",
+      "intro": "This is a preparation example, not a completed transaction or an offer of funding. Use it to organize a possible Houston double closing around the property documents.",
+      "items": [
+        "Identify the exact Houston property and attach the available legal description and survey.",
+        "Identify the neighborhood and exact parcel rather than relying on a citywide label. A property near the Heights may need a different resale plan from one elsewhere in the city.",
+        "Put the purchase price, resale price and buyer status beside the two contracts.",
+        "Ask the closing office to confirm both settlement costs and the proposed funding sequence."
+      ],
+      "outro": "A complete checklist does not establish approval. The actual property, contracts and funding terms still need review."
+    }
   },
   {
     "slug": "pasadena",
@@ -392,7 +403,18 @@ export const cities: City[] = [
       "la-porte",
       "missouri-city"
     ],
-    "blurb": "Sugar Land Town Square is a recognizable center for shopping and community events."
+    "blurb": "Sugar Land Town Square is a recognizable center for shopping and community events.",
+    "scenario": {
+      "title": "An illustrative Sugar Land deal checklist",
+      "intro": "This is a preparation example, not a completed transaction or an offer of funding. Use it to organize a possible Sugar Land double closing around the property documents.",
+      "items": [
+        "Identify the exact Sugar Land property and attach the available legal description and survey.",
+        "The Town Square area is a useful location reference, but your end buyer needs the exact property and resale terms. Include any association documents already available.",
+        "Put the purchase price, resale price and buyer status beside the two contracts.",
+        "Ask the closing office to confirm both settlement costs and the proposed funding sequence."
+      ],
+      "outro": "A complete checklist does not establish approval. The actual property, contracts and funding terms still need review."
+    }
   },
   {
     "slug": "missouri-city",
@@ -880,7 +902,18 @@ export const cities: City[] = [
       "texas-city",
       "conroe"
     ],
-    "blurb": "Galveston is a barrier-island city with Victorian architecture and historic streets."
+    "blurb": "Galveston is a barrier-island city with Victorian architecture and historic streets.",
+    "scenario": {
+      "title": "An illustrative Galveston deal checklist",
+      "intro": "This is a preparation example, not a completed transaction or an offer of funding. Use it to organize a possible Galveston double closing around the property documents.",
+      "items": [
+        "Identify the exact Galveston property and attach the available legal description and survey.",
+        "Island properties call for attention to parcel-specific insurance, flood and any historic restrictions. Tell us which documents are available without assuming that a nearby property follows the same rules.",
+        "Put the purchase price, resale price and buyer status beside the two contracts.",
+        "Ask the closing office to confirm both settlement costs and the proposed funding sequence."
+      ],
+      "outro": "A complete checklist does not establish approval. The actual property, contracts and funding terms still need review."
+    }
   },
   {
     "slug": "conroe",
@@ -941,7 +974,18 @@ export const cities: City[] = [
       "galveston",
       "the-woodlands"
     ],
-    "blurb": "Conroe has a historic downtown with cultural and community destinations."
+    "blurb": "Conroe has a historic downtown with cultural and community destinations.",
+    "scenario": {
+      "title": "An illustrative Conroe deal checklist",
+      "intro": "This is a preparation example, not a completed transaction or an offer of funding. Use it to organize a possible Conroe double closing around the property documents.",
+      "items": [
+        "Identify the exact Conroe property and attach the available legal description and survey.",
+        "Identify whether the property is near downtown or in a different part of the city. Provide the actual address, legal description and resale terms for a property-specific review.",
+        "Put the purchase price, resale price and buyer status beside the two contracts.",
+        "Ask the closing office to confirm both settlement costs and the proposed funding sequence."
+      ],
+      "outro": "A complete checklist does not establish approval. The actual property, contracts and funding terms still need review."
+    }
   },
   {
     "slug": "the-woodlands",
