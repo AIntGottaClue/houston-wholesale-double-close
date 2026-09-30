@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://houston.wholesaledoubleclose.click/sitemap.xml
