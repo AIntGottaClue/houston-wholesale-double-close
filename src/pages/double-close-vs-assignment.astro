@@ -8,7 +8,7 @@ import { brand, domain } from '../data/cities';
 const faqs = [
   { q: "Can any contract be assigned?", a: "No. Many contracts restrict or prohibit assignment, and some deal types like certain REO or estate sales are commonly non-assignable. Have the closing office or your agent check the assignment language in your specific contract before you count on either structure." },
   { q: "Is a double closing more expensive than an assignment?", a: "A double closing adds the transactional funding fee, which follows the published schedule, and each transaction can carry its own closing costs, like title insurance and the county recording fees on each transaction. An assignment avoids the funding fee. The tradeoff is that the assignment fee is visible to both sides, which can create friction on larger spreads." },
-  { q: "Which structure is faster?", a: "The timelines are similar when the paperwork is complete. An assignment can involve slightly less paperwork because there is one transaction, while a double closing coordinates two files through the same closing office. Funding for a double closing can be ready in as little as 24 hours once the deal details are in." },
+  { q: "Which structure is faster?", a: "The timelines are similar when the paperwork is complete. An assignment can involve slightly less paperwork because there is one transaction, while a double closing coordinates two files through the same closing office. The closing office can confirm the sequence once it reviews both contracts." },
   { q: "Do I need an LLC for a double closing?", a: "Wholesalers close in both personal names and entities. If you buy through an LLC, the closing office will want the entity documents for the file. The choice of entity is a question for your own legal and tax advisors." },
   { q: "Can I switch from an assignment to a double closing mid-deal?", a: "That depends on your contract and where the file stands. If the contract restricts assignment or a party objects to the visible fee, a double closing can sometimes still work if the timing allows. Raise it with the closing team as early as you can." }
 ];
@@ -89,7 +89,7 @@ const jsonld = [
 
     <section class="section" id="faq"><div class="container faq__inner"><h2 class="section__title">Common questions about the choice</h2><FaqAccordion items={faqs} /></div></section>
 
-    <section class="final-cta"><div class="final-cta__graphic" aria-hidden="true"></div><div class="container final-cta__inner"><h2 class="final-cta__title">Have a deal that needs a double closing?</h2><p class="final-cta__text">Submit the deal and we will review the numbers. Funding can be ready in as little as 24 hours once we have the deal details and closing office information.</p><a class="btn btn--accent btn--lg" href="/#deal-form">Submit Your Deal <span aria-hidden="true">→</span></a></div></section>
+    <section class="final-cta"><div class="final-cta__graphic" aria-hidden="true"></div><div class="container final-cta__inner"><h2 class="final-cta__title">Have a deal that needs a double closing?</h2><p class="final-cta__text">Submit the deal and we will review the numbers. Funding depends on review of your contracts and closing arrangements.</p><a class="btn btn--accent btn--lg" href="/#deal-form">Submit Your Deal <span aria-hidden="true">→</span></a></div></section>
   </main>
   <Footer />
 </Base>
